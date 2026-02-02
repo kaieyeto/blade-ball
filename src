@@ -213,7 +213,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 
 local Window = Fluent:CreateWindow({
     Title = "Lumy's Hub " .. Fluent.Version,
-    SubTitle = "Made By Kaieyeto Owner of Lumy",
+    SubTitle = "by kaieyeto",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -222,8 +222,8 @@ local Window = Fluent:CreateWindow({
 })
 
 Fluent:Notify({
-    Title = "im acc goated wtf
-    Content = "made by Kaieyeto the god scripter",
+    Title = "got bored so i made ts",
+    Content = "made by Kaieyeto",
     SubContent = "", -- Optional
     Duration = 5 -- Set to nil to make the notification not disappear
 })
@@ -235,11 +235,11 @@ local Tabs = {
 }
 
 -- Add a section to the "auto" tab
-local Section = Tabs.Main:AddSection("Enjoy :)")
+local Section = Tabs.Main:AddSection("enjoy")
 
 -- Add a paragraph to the section
 Section:AddParagraph({
-    Title = "hello scripter"
+    Title = "Lumy's Hub"
 })
 
 -- Add a toggle to the "auto" tab
@@ -261,7 +261,7 @@ local Toggle = Tabs.Main:AddToggle("AutoParry",
 local Toggle = Tabs.Main:AddToggle("Manualspam", 
 {
     Title = "Manual spam", 
-    Description = "the manual spam",
+    Description = "you should know",
     Default = false,
     Callback = function(state)
         if state then
